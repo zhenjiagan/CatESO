@@ -1,0 +1,5 @@
+SOLVER:
+  BATCH_SIZE: 8
+  MAX_EPOCH: 100 # Align with CatPred (https://www.nature.com/articles/s41467-025-57215-9)
+  DATA: '/gpfsnyu/scratch/zg2470/code/CatESO-main/embedding/CatPred'
+  SAVE: 'model1'

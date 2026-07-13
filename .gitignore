@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Secrets / credentials (never commit) ----
+.env
+.env.*
+settings.json
+*.key
+*.pem
+credentials*.json
+*_secret*
+*_token*
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- Large data (distributed separately) ----
+datasets/
+
+# ---- Logs & outputs ----
+*.log
+outputs/
+wandb/
+
+# NOTE: ensemble_ckpt/ is intentionally NOT ignored (trained weights are committed).
