@@ -127,3 +127,15 @@ python -u main_optimize.py \
 - The repo vendors `esm` ([facebookresearch/esm](https://github.com/facebookresearch/esm)), `esm_source`, and `openfold` ([aqlaboratory/openfold](https://github.com/aqlaboratory/openfold)), each under its upstream license.
 - The framework design follows OmniESI ([Hong-yu-Zhang/OmniESI](https://github.com/Hong-yu-Zhang/OmniESI)).
 
+## citation
+if you find our work helpful, please consider to star the repo and cite our paper 😊
+```
+@article{gan2026cateso,
+  title={CatESO: Differentiable Enzyme Sequence Optimization Guided by Substrate-Aware kcat Prediction},
+  author={Gan, Zhenjia and Xu, Yuzhi and Xu, Junde and Wu, Zhihao and Huang, Juping and Yin, Jiabin and Chen, Guangyong and Zhang, John ZH},
+  journal={bioRxiv},
+  pages={2026--07},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
